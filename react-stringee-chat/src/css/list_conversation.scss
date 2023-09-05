@@ -1,0 +1,16 @@
+.one_conv {
+  cursor: pointer;
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+
+  &.active {
+    .conv-name, .conv-last-msg {
+      color: white;
+    }
+  }
+
+  &:hover:not(.active) {
+    background: #87CEFAFF;
+  }
+}
